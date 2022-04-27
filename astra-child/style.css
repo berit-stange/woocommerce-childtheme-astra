@@ -1,0 +1,627 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.site,
+#page {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+}
+
+.n2-ss-slider {
+  position: relative;
+  top: 0px;
+}
+
+@media (max-width: 480px) {
+  .n2-ss-slider {
+    top: 45px;
+    height: 250px;
+  }
+  .ast-header-break-point .ast-below-header-bar {
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 920px) {
+  .n2-ss-slider {
+    top: 45px;
+  }
+}
+
+#post-7,
+#post-8 {
+  margin-top: 0;
+  padding-top: 0;
+  min-height: 80vh;
+}
+
+#order_review_heading {
+  display: none !important;
+}
+
+.woocommerce-checkout-review-order-table {
+  padding: 10px;
+}
+
+.site-content {
+  min-height: 90vh;
+  padding-top: 90px;
+  width: 100vw;
+}
+
+/*----- Startseite ------*/
+.page-id-140 .site-content {
+  padding-top: 0;
+}
+
+.icon-arrow {
+  display: none;
+}
+
+/* Mwst in Übersicht  */
+.wc-gzd-additional-info {
+  font-size: 11px !important;
+  color: #666666;
+  font-style: italic;
+}
+
+.shipping-costs-info a {
+  color: #666666;
+}
+
+.shipping-costs-info a:hover {
+  color: #14b042;
+}
+
+.products .wc-gzd-additional-info {
+  margin: 0;
+}
+
+.astra-shop-summary-wrap .amount {
+  font-size: 1.3em;
+  font-size: 16px;
+}
+
+.woocommerce-loop-product__title {
+  font-weight: 800;
+}
+
+.woocommerce a.button {
+  font-size: 70%;
+}
+
+.woocommerce span.onsale {
+  font-weight: 600;
+}
+
+.orderby {
+  border: none;
+}
+
+/* ...*/
+.post-131,
+.post-132,
+.post-133,
+.post-134,
+.post-135,
+.post-265,
+.post-277,
+.post-279,
+.post-287,
+.post-293 {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0px 0 50px 0;
+  font-size: 1rem;
+}
+
+/* ...*/
+.post-131 h2,
+.post-132 h2,
+.post-133 h2,
+.post-134 h2,
+.post-135 h2,
+.post-265 h2,
+.post-277 h2,
+.post-279 h2,
+.post-287 h2,
+.post-293 h2 {
+  font-size: 1.5rem;
+  color: #14b042;
+}
+
+@media (max-width: 480px) {
+  .post-277 h2 {
+    font-size: 1.3rem;
+    padding-top: 30px;
+  }
+}
+
+/* ...*/
+.post-131 h3,
+.post-131 h4,
+.post-132 h3,
+.post-132 h4,
+.post-133 h3,
+.post-133 h4,
+.post-134 h3,
+.post-134 h4,
+.post-135 h3,
+.post-135 h4,
+.post-265 h3,
+.post-265 h4,
+.post-277 h3,
+.post-277 h4,
+.post-279 h3,
+.post-279 h4,
+.post-287 h3,
+.post-287 h4,
+.post-293 h3,
+.post-293 h4 {
+  /* margin-left: -50px; */
+  font-size: 1rem;
+  color: #14b042;
+}
+
+.page h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .page h1 {
+    font-size: 1.5rem !important;
+    padding-top: 20px;
+  }
+}
+
+.site-primary-footer-wrap li {
+  list-style: none;
+}
+
+.site-primary-footer-wrap {
+  padding: 45px;
+}
+
+.wp-image-23 {
+  padding: 0 45px 25px 0;
+  width: 100%;
+}
+
+/* ----- 02.03.2022 ----- */
+/* Blog */
+.post {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.post-thumb {
+  margin-right: 20px;
+}
+
+.ast-row .wp-post-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .post-thumb {
+    /*border: 3px solid red;*/
+    float: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+.entry-meta {
+  display: none;
+}
+
+.ast-row .ast-grid-common-col {
+  padding: 10px 0 0 0;
+}
+
+.ast-row .entry-header,
+.ast-row .entry-content {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 480px) {
+  .ast-row .entry-header,
+  .ast-row .entry-content {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.ast-row .entry-content {
+  clear: none;
+}
+
+@media (max-width: 480px) {
+  .ast-row .entry-content {
+    clear: both;
+  }
+}
+
+.single-layout-1 {
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.ast-article-single .post-thumb {
+  display: none;
+}
+
+/*----- Startseite ------*/
+#post-140 {
+  padding: 0;
+}
+
+/* Produktseite Beschreibung */
+.woocommerce-Tabs-panel--description {
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 5em;
+}
+
+/* Produktseite Beschreibung grid*/
+.product-grid-item {
+  padding: 10px;
+}
+
+/* Produktseite Upsells */
+.upsells {
+  max-width: 100vw;
+  background-color: #eeeeee;
+  padding: 30px 30px 0px 30px;
+}
+
+@media (max-width: 544px) {
+  /* zu breit */
+  .upsells .columns-4,
+  .related .columns-4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+.upsells .astra-shop-summary-wrap .button {
+  display: none;
+}
+
+.upsells p {
+  display: none;
+}
+
+/* Produktseite ähnliche Produkte */
+.related {
+  border-top: 1px solid #eeeeee;
+  padding-top: 10px;
+}
+
+/* Produktseite: alle Kategorien */
+.posted_in {
+  display: none !important;
+}
+
+/* Produktseite: Bildbeschreibung Zoom */
+.pswp__caption__center {
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 600;
+  max-width: 100vw;
+  padding: 10px 10px 20px 10px;
+}
+
+/* Vorschaubilder verkleinern */
+@media (min-width: 544px) {
+  .woocommerce div.product div.woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {
+    clear: unset !important;
+  }
+  .woocommerce div.product div.woocommerce-product-gallery--columns-4 .flex-control-thumbs li {
+    width: unset;
+  }
+}
+
+/*----- Footer ------*/
+/* nötig, weil in mobiler Ansicht auf manchen Geräten die Breite nicht stimmt */
+footer div {
+  margin: 0 !important;
+}
+
+footer .ast-builder-grid-row {
+  margin: 0 auto !important;
+}
+
+.footer-custom {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr  1fr 1fr 1fr;
+      grid-template-columns: 1fr  1fr 1fr 1fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  font-size: 0.95em;
+  padding: 30px 0px 20px 0px;
+}
+
+.footer-custom ul {
+  margin: 0;
+}
+
+.footer-custom h3 {
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  padding: 30px 0px 10px 0px;
+  text-transform: uppercase;
+}
+
+.footer-b {
+  padding: 10px;
+}
+
+.footer-b p {
+  padding: 0px;
+  margin: 0;
+}
+
+@media (max-width: 921px) {
+  .footer-custom {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    max-width: 100vw;
+    padding: 30px 0px 10px 20px;
+  }
+  .footer-b {
+    max-width: 100vw;
+    padding: 10px 30px 10px 30px;
+    font-size: 1em;
+  }
+  .footer-custom h3 {
+    padding: 10px 0px 10px 0px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 920px) {
+  .footer-custom {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+.footer-custom li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.ast-builder-grid-row,
+.ast-container {
+  /*max-width: 1080px !important;*/
+  max-width: 1272px !important;
+}
+
+/*----- Produkt-Seite ------*/
+.woocommerce div.product {
+  padding-top: 50px;
+}
+
+.payment-page .consumer-section {
+  display: none !important;
+}
+
+/*----- 20.4.22 ------*/
+#ast-desktop-header,
+#ast-mobile-header {
+  position: fixed;
+  /*width: 100%;*/
+  width: 100vw;
+}
+
+.main-header-menu .menu-link {
+  padding: 0 0.69em;
+  letter-spacing: 0.5px;
+}
+
+.menu-link {
+  font-size: 0.9em !important;
+  /* bricht um in 2 Zeilen in Desktopansicht*/
+}
+
+/* Startseite Teaser-Bilder */
+figcaption {
+  text-align: center;
+}
+
+figcaption a {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+@media (max-width: 480px) {
+  figcaption a {
+    font-size: 1.1em;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 920px) {
+  figcaption a {
+    font-size: 1.2em;
+    letter-spacing: 0.1px;
+  }
+}
+
+.is-style-rounded {
+  padding: 10px;
+}
+
+.wp-block-gallery {
+  padding-bottom: 50px;
+}
+
+/* 25.04.22 */
+.teaser-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 100px;
+}
+
+.teaser-item {
+  padding: 10px;
+}
+
+.teaser-item img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 20px;
+}
+
+@media (max-width: 480px) {
+  .teaser-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 700px) {
+  .teaser-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+.highlight-container {
+  background-color: #eeeeee;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px !important;
+}
+
+.highlight-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+
+.highlight-item p {
+  padding: 0px 30px 0px 30px;
+}
+
+.highlight-item h3 {
+  color: #14b042;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+@media (max-width: 700px) {
+  .highlight-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    font-size: 0.9em;
+    line-height: 1.7;
+    max-width: 450px;
+    margin: 50px auto;
+  }
+  .highlight-item p {
+    letter-spacing: 0.5px;
+  }
+}
+
+.welcome {
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+  margin: 0 !important;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .welcome {
+    font-size: 1.3em !important;
+    padding: 80px 0px 0px 0px;
+  }
+  #ast-mobile-header {
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 920px) {
+  .welcome {
+    padding: 80px 0px 10px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ast-above-header.ast-above-header-bar {
+    padding-top: 10px;
+  }
+  /*----- Startseite ------*/
+  #post-140 .entry-title {
+    margin: 0px;
+  }
+}
+
+.bedrucken-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.bedrucken-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 1em;
+}
+/*# sourceMappingURL=style.css.map */

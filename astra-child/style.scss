@@ -22,6 +22,11 @@ $white: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
 }
+.page-title {
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
 @media (max-width:480px) {
 	.page h1 {
 	font-size: 1.5rem !important;
@@ -290,7 +295,7 @@ figcaption a {
 .post-279, /* Über uns */ 
 .post-287, /* Bestellvorgang */
 .post-293 /* Retouren */ {
-	max-width: 600px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 0px 0 50px 0;
 	font-size: 1rem;
@@ -307,13 +312,29 @@ figcaption a {
 .post-287 h2, /* Bestellvorgang */
 .post-293 h2 /* Retouren */ {
 	font-size: 1.5rem;
+	font-weight: 700;
+	padding: 30px;
+	/*color: #14b042;*/
+}
+
+/* FAQ */
+#post-277 .entry-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	color: #14b042;
 }
+
+/* FAQ */
+#post-277 figure {
+	display: flex;
+	align-self: center;
+	justify-self: center;
+}
+
 @media (max-width:480px) {
-	/*FAQ*/
+	/* FAQ */
 	.post-277 h2 {
 		font-size: 1.3rem;
-		padding-top: 30px;
 	}
 }
 
@@ -692,8 +713,8 @@ footer .ast-builder-grid-row {
 }
 
 /* Suche */
-#snize-search-results-grid-mode li.snize-product span.snize-title,
-#snize-search-results-grid-mode li.snize-product span.snize-price  {
+.snize-title,
+.snize-price  {
 	font-size: 1em !important;
-	font-weight: 800 !important;
+	font-weight: 700 !important;
 }

@@ -1,2 +1,5 @@
-# woocommerce-childtheme-astra
-Woocommerce Childtheme Astra
+# Woocommerce Childtheme Astra
+
+## Prokect-Beschreibung
++ Theme-Anpassung für WordPress/WooCommerce
++ Umsetzung eines Onlineshops 

@@ -268,16 +268,19 @@ figcaption a {
 
 /* Produkt-Übersicht: Warenkorb-Button */
 .woocommerce a.button {
-	font-size: 70%;
+	font-size: 0.7em;
 }
 
 /* Produkt-Übersicht + Produktseite: Rabatt-Button */
 .woocommerce span.onsale {
 	font-weight: 600;
 }
-
+ /* Sortierung */
 .orderby {
+	background-color: #ffffff;
 	border: none;
+	font-size: 0.8em;
+	padding: 0.9em !important;
 } 
 
 /* Rechtliche Seiten & Information */

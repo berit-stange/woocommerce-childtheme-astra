@@ -741,12 +741,22 @@ footer .ast-builder-grid-row {
 
 /* Werksverkauf */
 .werksverkauf {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .werksverkauf-img img {
-	padding: 50px;
-	max-height: 350px;
+	padding: 30px;
+}
+
+@media (max-width: 480px) {
+	.werksverkauf {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+	
+	.werksverkauf-img img {
+	padding: 20px;
+}
+	
 }

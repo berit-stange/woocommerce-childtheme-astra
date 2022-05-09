@@ -738,3 +738,15 @@ footer .ast-builder-grid-row {
 	font-size: 1em !important;
 	font-weight: 700 !important;
 }
+
+/* Werksverkauf */
+.werksverkauf {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.werksverkauf-img img {
+	padding: 50px;
+	height: 500px; 
+}

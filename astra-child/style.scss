@@ -244,8 +244,15 @@ figcaption a {
 	display: none !important;
 }
 
-/* Kasse */
-.woocommerce-checkout-review-order-table {
+.woocommerce-checkout-review-order-table,
+.payment_box,
+.woocommerce-shipping-fields__field-wrapper {
+	padding: 20px;
+	background-color: #f5f5f5 !important;
+}
+
+.woocommerce-billing-fields__field-wrapper {
+	background-color: #f5f5f5;
 	padding: 10px;
 }
 

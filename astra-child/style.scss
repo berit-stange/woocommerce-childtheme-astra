@@ -741,10 +741,13 @@ footer .ast-builder-grid-row {
 }
 
 /* Suche */
-.snize-title,
+/* .snize-title,
 .snize-price  {
 	font-size: 1em !important;
 	font-weight: 700 !important;
+} */
+.aws-search-result .aws_result_title {
+	color: #222222;
 }
 
 /* Werksverkauf */

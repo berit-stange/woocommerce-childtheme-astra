@@ -477,7 +477,7 @@ figcaption a {
 	padding: 0;
 }
 
-/* Produktseite Beschreibung */
+/* Produktseite Beschreibung grid */
 .woocommerce-Tabs-panel--description  {
 	margin: 0 auto;
 	display: grid;
@@ -485,9 +485,12 @@ figcaption a {
 	grid-gap: 5em;
 }
 
-/* Produktseite Beschreibung grid */
 .product-grid-item {
 	padding: 10px;
+}
+
+.ast-oembed-container {
+	height: auto !important;
 }
 
 /* Produktseite Upsells */

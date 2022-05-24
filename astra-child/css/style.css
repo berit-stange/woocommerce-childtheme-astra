@@ -139,26 +139,29 @@ height: 30vw;
 
 .teaser-deko:hover {
 background-color: red;
-background: url(/img/schaf-wolly-schwarz.jpg);
+background-image: url(/img/schaf-wolly-schwarz.jpg);
 background-size: cover;
 transition: background-image .5s ease;
 }
 
-@media (max-width:480px) {
+@media (max-width:780px) {
 .teaser-grid {
   /* grid-template-columns : 1fr; */
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   padding: 10px;
 }
+.teaser-deko {
+  width: 60vw;
+  height: 60vw;
 }
-@media (min-width: 481px) and (max-width: 780px)  {
+}
+/* @media (min-width: 481px) and (max-width: 780px)  {
 .teaser-grid {
-  /* grid-template-columns : 1fr 1fr; */
   display: flex;
-flex-direction: column;
+  flex-direction: column;
 }
-}
+} */
 
 /* Startseite Highlight-Bilder */
 .highlight-container {

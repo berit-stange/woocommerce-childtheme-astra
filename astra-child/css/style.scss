@@ -130,7 +130,7 @@ figcaption a {
 
 .teaser-deko {
 	background-color: blue;
-	background: url(http://www.test.pappmoebelshop.de/wp-content/uploads/2022/04/pappmoebel-schaf-wolly-natur-1.jpg);
+	background-image: url(/img/schaf-wolly.jpg);
 	background-size: cover;
 	border-radius: 50%;
 	padding: 20px;
@@ -146,13 +146,13 @@ figcaption a {
 }
 
 @media (max-width:480px) {
-	.teaser-container {
+	.teaser-grid {
 		grid-template-columns : 1fr;
 		padding: 10px;
 	}
 }
 @media (min-width: 481px) and (max-width: 700px)  {
-	.teaser-container {
+	.teaser-grid {
 		grid-template-columns : 1fr 1fr;
 	}
 }

@@ -157,6 +157,25 @@ transition: background-image 1s ease-in-out;
   height: 60vw;
 }
 }
+
+.bild-1 {
+  opacity: 100;
+  position: absolute;
+    left: 0;
+    top: 0;
+}
+.bild-1:hover {
+  opacity: 0;
+}
+.bild-2 {
+  opacity: 0;
+  position: absolute;
+    left: 0;
+    top: 0;
+}
+.bild-2:hover {
+  opacity: 100;
+}
 /* @media (min-width: 481px) and (max-width: 780px)  {
 .teaser-grid {
   display: flex;

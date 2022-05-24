@@ -73,6 +73,7 @@ height: 250px;
 /* Startseite Teaser-Beschreibung */
 figcaption {
 text-align: center;
+position: relative;
 }
 figcaption a {
 font-size: 1.3em;
@@ -117,6 +118,7 @@ padding: 10px;
 display: flex;
 flex-direction: column;
 align-items: center;
+position: relative;
 }
 
 .teaser-grid-item img {
@@ -159,11 +161,12 @@ transition: background-image 1s ease-in-out;
 }
 
 .bild-1 {
-  opacity: 100;
+  /* opacity: 100; */
   position: absolute;
     left: 0;
     top: 0;
-    transition: opacity 1s ease ease-in-out;
+    /* transition: opacity 1s ease-in-out; */
+    display: block;
 }
 
 /* .bild-1:hover {
@@ -177,6 +180,7 @@ transition: background-image 1s ease-in-out;
   left: 0;
   top: 0;
   transition: opacity .5s ease-in-out;
+  display: block;
 }
 
 .bild-2:hover {

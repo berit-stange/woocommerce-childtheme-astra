@@ -128,20 +128,16 @@ padding: 20px;
 }
 
 .teaser-deko {
-/* background-color: blue; */
 background-image: url(/img/schaf-wolly.jpg);
 background-size: cover;
 border-radius: 50%;
 padding: 20px;
-/* width: 300px; */
-/* height: 300px; */
 width: 30vw;
 height: 30vw;
 transition: background-image 1s ease-in-out;
 }
 
 .teaser-deko:hover {
-/* background-color: red; */
 background-image: url(/img/schaf-wolly-schwarz.jpg);
 background-size: cover;
 transition: background-image 1s ease-in-out;
@@ -149,7 +145,6 @@ transition: background-image 1s ease-in-out;
 
 @media (max-width:780px) {
 .teaser-grid {
-  /* grid-template-columns : 1fr; */
   display: flex;
   flex-direction: column;
   padding: 10px;

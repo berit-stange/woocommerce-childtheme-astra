@@ -20,6 +20,12 @@
   text-align: center;
 }
 
+.page-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
 @media (max-width: 480px) {
   .page h1 {
     font-size: 1.5rem !important;
@@ -68,7 +74,7 @@ a {
   }
 }
 
-/* Startseite Teaser-Bilder */
+/* Startseite Teaser-Beschreibung */
 figcaption {
   text-align: center;
 }
@@ -95,6 +101,7 @@ figcaption a {
   }
 }
 
+/* Startseite Teaser-Bilder */
 .is-style-rounded {
   padding: 10px;
 }
@@ -103,27 +110,58 @@ figcaption a {
   padding-bottom: 50px;
 }
 
-/* Startseite  */
-.teaser-container {
+.teaser-grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 100px;
 }
 
-.teaser-item {
+.teaser-grid-item {
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.teaser-item img {
+.teaser-grid-item img {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   padding: 20px;
+}
+
+.teaser-deko {
+  background-color: blue;
+  background: url(http://www.test.pappmoebelshop.de/wp-content/uploads/2022/04/pappmoebel-schaf-wolly-natur-1.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.teaser-deko:hover {
+  background-color: red;
+  background: url(http://www.test.pappmoebelshop.de/wp-content/uploads/2022/04/pappmoebel-schaf-wolly-schwarz-_5656_-.jpg);
+  background-size: cover;
+  -webkit-transition: background-image .5s ease;
+  transition: background-image .5s ease;
 }
 
 @media (max-width: 480px) {
@@ -141,6 +179,7 @@ figcaption a {
   }
 }
 
+/* Startseite Highlight-Bilder */
 .highlight-container {
   background-color: #eeeeee;
   display: -ms-grid;
@@ -239,9 +278,26 @@ figcaption a {
   display: none !important;
 }
 
-/* Kasse */
-.woocommerce-checkout-review-order-table {
+.woocommerce-checkout-review-order-table,
+.payment_box,
+.woocommerce-shipping-fields__field-wrapper {
+  padding: 20px;
+  background-color: #f5f5f5 !important;
+}
+
+.woocommerce-billing-fields__field-wrapper {
+  background-color: #f5f5f5;
   padding: 10px;
+}
+
+.input-text,
+.select,
+.select2-selection {
+  border: 1px solid #d8d8d8 !important;
+}
+
+.woocommerce form .form-row label {
+  font-weight: 600;
 }
 
 /* Startseite */
@@ -273,20 +329,16 @@ figcaption a {
   margin: 0;
 }
 
-/* Produkt-Übersicht: Preis */
-.astra-shop-summary-wrap .amount {
-  font-size: 1.3em;
-  font-size: 16px;
-}
-
-/* Produkt-Übersicht: Titel */
+/* Produkt-Übersicht: Preis + Titel */
+.astra-shop-summary-wrap .amount,
 .woocommerce-loop-product__title {
-  font-weight: 800;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 /* Produkt-Übersicht: Warenkorb-Button */
 .woocommerce a.button {
-  font-size: 70%;
+  font-size: 0.7em;
 }
 
 /* Produkt-Übersicht + Produktseite: Rabatt-Button */
@@ -294,8 +346,12 @@ figcaption a {
   font-weight: 600;
 }
 
+/* Sortierung */
 .orderby {
+  background-color: #ffffff;
   border: none;
+  font-size: 0.8em;
+  padding: 0.9em !important;
 }
 
 /* Rechtliche Seiten & Information */
@@ -309,7 +365,7 @@ figcaption a {
 .post-279,
 .post-287,
 .post-293 {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0px 0 50px 0;
   font-size: 1rem;
@@ -326,14 +382,34 @@ figcaption a {
 .post-287 h2,
 .post-293 h2 {
   font-size: 1.5rem;
+  font-weight: 700;
+  padding: 30px;
+  /*color: #14b042;*/
+}
+
+/* FAQ */
+#post-277 .entry-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   color: #14b042;
 }
 
+/* FAQ */
+#post-277 figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+}
+
 @media (max-width: 480px) {
-  /*FAQ*/
+  /* FAQ */
   .post-277 h2 {
     font-size: 1.3rem;
-    padding-top: 30px;
   }
 }
 
@@ -452,7 +528,7 @@ figcaption a {
   padding: 0;
 }
 
-/* Produktseite Beschreibung */
+/* Produktseite Beschreibung grid */
 .woocommerce-Tabs-panel--description {
   margin: 0 auto;
   display: -ms-grid;
@@ -462,9 +538,12 @@ figcaption a {
   grid-gap: 5em;
 }
 
-/* Produktseite Beschreibung grid */
 .product-grid-item {
   padding: 10px;
+}
+
+.ast-oembed-container {
+  height: auto !important;
 }
 
 /* Produktseite Upsells */
@@ -635,5 +714,137 @@ footer .ast-builder-grid-row {
       grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   grid-gap: 1em;
+}
+
+/* Sub-Menu */
+/*.main-header-menu .sub-menu {
+	width: 100vw;
+}
+.main-header-menu .menu-item {
+	position: relative;
+}
+.main-header-menu .menu-item:hover>.sub-menu {
+    right: auto;
+    left: -100%;
+	width: 500px;
+}*/
+/*
+.main-header-menu .sub-menu .menu-item.focus .sub-menu, .main-header-menu .sub-menu .menu-item:hover .sub-menu {
+	  left: 0;
+    top: 100%;
+    right: auto;
+}
+
+.main-header-menu .menu-item .sub-menu {
+	display: flex;
+	flex-direction: row;
+	min-width: 500px;
+	background-color: pink !important;
+}
+/*
+#menu-item-70 ul,
+#menu-item-893 ul {
+	display: flex;
+	flex-direction: column;
+}
+*/
+@media (max-width: 921px) {
+  ul .sub-menu {
+    display: unset !important;
+  }
+  .sub-menu a {
+    font-weight: 300 !important;
+  }
+  .ast-mobile-header-wrap .ast-mobile-header-content {
+    /*max-width: 80vw !important;*/
+    margin: 0 auto;
+    background-color: transparent;
+  }
+  .ast-builder-menu-mobile .main-navigation .main-header-menu .menu-item > .menu-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .ast-header-break-point .ast-nav-menu .sub-menu {
+    line-height: 2.5;
+    background-color: transparent;
+  }
+  .ast-arrow-svg {
+    display: none;
+    visibility: hidden;
+  }
+  .ast-header-break-point .main-header-menu {
+    background-color: #222222;
+    opacity: 0.9;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ast-header-break-point .ast-nav-menu .sub-menu {
+    line-height: 2;
+    font-size: 0.95em;
+  }
+  .main-navigation ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-flex-line-pack: start !important;
+        align-content: start !important;
+  }
+  .menu-link a {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .main-header-menu .menu-link {
+    padding: 0 0;
+    letter-spacing: 0px;
+  }
+  .main-navigation ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
+
+/* Suche */
+/*.snize-title,
+.snize-price  {
+	font-size: 1em !important;
+	font-weight: 700 !important;
+}*/
+.aws-search-result .aws_result_title {
+  color: #222222;
+}
+
+.aws-container .aws-show-clear .aws-search-field {
+  padding-right: 6px;
+}
+
+/* Werksverkauf */
+.werksverkauf {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.werksverkauf-img img {
+  padding: 30px;
+}
+
+@media (max-width: 480px) {
+  .werksverkauf {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .werksverkauf-img img {
+    padding: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

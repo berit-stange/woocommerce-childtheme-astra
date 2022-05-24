@@ -163,18 +163,25 @@ transition: background-image 1s ease-in-out;
   position: absolute;
     left: 0;
     top: 0;
+    transition: opacity 1s ease ease-in-out;
 }
-.bild-1:hover {
+
+/* .bild-1:hover {
   opacity: 0;
-}
+  transition: opacity 1s ease ease-in-out;
+} */
+
 .bild-2 {
   opacity: 0;
   position: absolute;
-    left: 0;
-    top: 0;
+  left: 0;
+  top: 0;
+  transition: opacity .5s ease-in-out;
 }
+
 .bild-2:hover {
   opacity: 100;
+  transition: opacity .5s ease-in-out;
 }
 /* @media (min-width: 481px) and (max-width: 780px)  {
 .teaser-grid {

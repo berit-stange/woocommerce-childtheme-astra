@@ -126,7 +126,7 @@ padding: 20px;
 }
 
 .teaser-deko {
-background-color: blue;
+/* background-color: blue; */
 background-image: url(/img/schaf-wolly.jpg);
 background-size: cover;
 border-radius: 50%;
@@ -135,13 +135,14 @@ padding: 20px;
 /* height: 300px; */
 width: 30vw;
 height: 30vw;
+transition: background-image 1s ease-in-out;
 }
 
 .teaser-deko:hover {
-background-color: red;
+/* background-color: red; */
 background-image: url(/img/schaf-wolly-schwarz.jpg);
 background-size: cover;
-transition: background-image .5s ease;
+transition: background-image 1s ease-in-out;
 }
 
 @media (max-width:780px) {

@@ -145,31 +145,6 @@ height: 30vw;
   border: 1px solid teal;
 }
 
-/* .teaser-deko {
-background-image: url(/img/schaf-wolly.jpg);
-background-size: cover;
-border-radius: 50%;
-width: 30vw;
-height: 30vw;
-transition: background-image 1s ease-in-out;
-} */
-
-/* .teaser-deko:hover {
-background-image: url(/img/schaf-wolly-schwarz.jpg);
-background-size: cover;
-transition: background-image 1s ease-in-out;
-} */
-
-/* .teaser-deko-2:hover {
-  background-image: url(/img/schaf-wolly-schwarz.jpg);
-  background-size: cover;
-  border-radius: 50%;
-  padding: 20px;
-  width: 30vw;
-  height: 30vw;
-  transition: background-image 1s ease-in-out;
-  } */
-
 @media (max-width:780px) {
 .teaser-grid {
   /* display: flex; */
@@ -186,10 +161,6 @@ transition: background-image 1s ease-in-out;
     width: 60vw;
     height: 60vw;
     }
-/* .teaser-deko {
-  width: 60vw;
-  height: 60vw;
-} */
 }
 
 .bild-1 {

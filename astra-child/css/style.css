@@ -75,8 +75,6 @@ height: 250px;
 text-align: center;
 /* padding: 10px; */
 position: relative;
-/* top: 30vw; */
-/* padding-top: 32vw; */
 }
 .figcaption a {
 font-size: 1.3em;
@@ -132,7 +130,6 @@ border: 1px solid palevioletred;
 position: absolute;
 width: 30vw;
 height: 30vw;
-/* clear: both; */
 }
 
 @media (max-width:780px) {

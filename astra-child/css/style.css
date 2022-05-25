@@ -509,6 +509,12 @@ grid-template-columns: 1fr 1fr;
 grid-gap: 5em;
 }
 
+@media (max-width:921px) {
+	.woocommerce-Tabs-panel--description {
+	grid-template-columns: 1fr;
+}
+}
+
 .product-grid-item {
 padding: 10px;
 }

@@ -109,14 +109,14 @@ align-content: center;
 padding: 50px;
 /* padding: 10px 10px 100px 10px; */
 position: relative;
-border: 1px solid orange;
+/* border: 1px solid orange; */
 }
 
 .teaser-grid-item {
 /* padding: 10px; */
 display: block;
 position: relative;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 width: 30vw;
 height: 30vw;
 }
@@ -126,7 +126,7 @@ border-radius: 50%;
 object-fit: cover;
 padding: 20px;
 display: block;
-border: 1px solid palevioletred;
+/* border: 1px solid palevioletred; */
 position: absolute;
 width: 30vw;
 height: 30vw;

@@ -135,10 +135,6 @@ height: 30vw;
 /* clear: both; */
 }
 
-.grid-item-wrapper {
-  border: 1px solid teal;
-}
-
 @media (max-width:780px) {
 .teaser-grid {
   grid-template-columns : 1fr;

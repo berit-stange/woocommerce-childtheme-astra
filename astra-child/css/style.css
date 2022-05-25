@@ -71,11 +71,14 @@ height: 250px;
 }
 
 /* Startseite Teaser-Beschreibung */
-figcaption {
+.figcaption {
 text-align: center;
+/* padding: 10px; */
 position: relative;
+/* top: 30vw; */
+/* padding-top: 32vw; */
 }
-figcaption a {
+.figcaption a {
 font-size: 1.3em;
 font-weight: 600;
 text-decoration: none !important;
@@ -83,91 +86,118 @@ text-transform: uppercase;
 letter-spacing: 0.6px;
 }
 @media (max-width:480px) {
-figcaption a {
+.figcaption a {
   font-size: 1.1em;
   letter-spacing: 0.1px;
 }
 }
 @media (min-width:480px) and (max-width:920px) {
-figcaption a {
+.figcaption a {
   font-size: 1.2em;
   letter-spacing: 0.1px;
 }
 }
 
 /* Startseite Teaser-Bilder */
-.is-style-rounded {
-padding: 10px;
-}
-
 .wp-block-gallery {
 padding-bottom: 50px;
 }
 
 .teaser-grid {
-/* display: grid; */
-/* grid-template-columns : 1fr 1fr 1fr; */
-display: flex;
-flex-direction: row;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+/* display: flex; */
+/* flex-direction: row; */
 justify-content: center;
-padding-bottom: 100px;
+align-content: center;
+padding: 50px;
+/* padding: 10px 10px 100px 10px; */
+position: relative;
+border: 1px solid orange;
 }
 
 .teaser-grid-item {
-padding: 10px;
-display: flex;
-flex-direction: column;
-align-items: center;
+/* padding: 10px; */
+/* display: flex; */
+/* flex-direction: column; */
+display: block;
+/* justify-content: center; */
+/* align-items: center; */
 position: relative;
+border: 1px solid blue;
+width: 30vw;
+height: 30vw;
 }
 
 .teaser-grid-item img {
 border-radius: 50%;
 object-fit: cover;
 padding: 20px;
+display: block;
+border: 1px solid palevioletred;
+position: absolute;
+width: 30vw;
+height: 30vw;
+/* clear: both; */
 }
 
-.teaser-deko {
+.grid-item-wrapper {
+  border: 1px solid teal;
+}
+
+/* .teaser-deko {
 background-image: url(/img/schaf-wolly.jpg);
 background-size: cover;
 border-radius: 50%;
-padding: 20px;
 width: 30vw;
 height: 30vw;
 transition: background-image 1s ease-in-out;
-}
+} */
 
-.teaser-deko:hover {
+/* .teaser-deko:hover {
 background-image: url(/img/schaf-wolly-schwarz.jpg);
 background-size: cover;
 transition: background-image 1s ease-in-out;
-}
+} */
+
+/* .teaser-deko-2:hover {
+  background-image: url(/img/schaf-wolly-schwarz.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  padding: 20px;
+  width: 30vw;
+  height: 30vw;
+  transition: background-image 1s ease-in-out;
+  } */
 
 @media (max-width:780px) {
 .teaser-grid {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
+  grid-template-columns : 1fr;
+  justify-items: center;
   padding: 10px;
 }
-.teaser-deko {
+.teaser-grid-item {
   width: 60vw;
   height: 60vw;
-}
+  }
+  .teaser-grid-item img {
+    width: 60vw;
+    height: 60vw;
+    }
+/* .teaser-deko {
+  width: 60vw;
+  height: 60vw;
+} */
 }
 
 .bild-1 {
-  /* opacity: 100; */
   position: absolute;
     left: 0;
     top: 0;
-    /* transition: opacity 1s ease-in-out; */
     display: block;
 }
-
-/* .bild-1:hover {
-  opacity: 0;
-  transition: opacity 1s ease ease-in-out;
-} */
 
 .bild-2 {
   opacity: 0;
@@ -182,12 +212,8 @@ transition: background-image 1s ease-in-out;
   opacity: 100;
   transition: opacity .5s ease-in-out;
 }
-/* @media (min-width: 481px) and (max-width: 780px)  {
-.teaser-grid {
-  display: flex;
-  flex-direction: column;
-}
-} */
+
+
 
 /* Startseite Highlight-Bilder */
 .highlight-container {

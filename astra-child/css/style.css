@@ -47,6 +47,11 @@ a {
   color: #000;
 }
 
+/* Cookie Consent */
+.cli-tab-footer .wt-cli-privacy-accept-btn {
+	background-color: #14b042;
+}
+
 /* Startseite: Slider */
 .n2-ss-slider {
 position: relative; 

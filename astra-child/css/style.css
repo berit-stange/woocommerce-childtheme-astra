@@ -70,6 +70,12 @@ height: 250px;
 }
 }
 
+/* Startseite: Pfeile in Slider */
+.nextend-arrow {
+	background-color: black;
+	padding: 5px;
+}
+
 /* Startseite Teaser-Beschreibung */
 .figcaption {
 text-align: center;

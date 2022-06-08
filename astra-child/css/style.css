@@ -73,7 +73,8 @@ height: 250px;
 /* Startseite: Pfeile in Slider */
 .nextend-arrow {
 	background-color: black;
-	padding: 5px;
+	padding: 10px;
+	border-radius: 50%;
 }
 
 /* Startseite Teaser-Beschreibung */

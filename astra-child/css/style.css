@@ -52,6 +52,10 @@ a {
 	background-color: #14b042;
 }
 
+.cli-switch input:checked + .cli-slider {
+  background-color: #14b042;
+}
+
 /* Startseite: Slider */
 .n2-ss-slider {
 position: relative; 

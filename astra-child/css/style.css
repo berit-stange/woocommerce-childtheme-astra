@@ -519,6 +519,10 @@ a {
   margin: 0 auto;
 }
 
+.blog div {
+  padding: 10px;
+}
+
 /* Blog Vorschaubild */
 .post-thumb {
   margin-right: 20px;

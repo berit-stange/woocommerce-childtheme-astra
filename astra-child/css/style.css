@@ -522,6 +522,12 @@ a {
 .blog .video,
 .blog .foto {
   padding: 10px;
+  flex: 1;
+}
+
+.foto-grid {
+  display: flex;
+  flex-direction: row;
 }
 
 /* Blog Vorschaubild */

@@ -103,7 +103,7 @@ a {
 
 /* Startseite: Pfeile in Slider */
 .nextend-arrow {
-  background-color: black;
+  background-color: #000;
   padding: 10px;
   border-radius: 50%;
 }
@@ -214,32 +214,62 @@ a {
 
 /* Startseite Highlight-Bilder */
 .highlight-container {
-  background-color: #eeeeee;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 80vw;
+  background-color: #eeeeee;
   margin: 50px auto !important;
+  position: relative;
+  width: 90vw;
+  max-width: 1200px;
 }
 
 .highlight-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.1em;
-  font-weight: 500;
-  letter-spacing: 0.1px;
+  display: block;
+  position: relative;
+  width: 45vw;
+  height: 45vw;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.highlight-item img {
+  display: block;
+  position: absolute;
+  width: 45vw;
+  height: 45vw;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 .highlight-item p {
-  padding: 0px 30px 0px 30px;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 0.1px;
 }
 
 .highlight-item h3 {
   color: #14b042;
   font-weight: 600;
   text-transform: uppercase;
-  padding-top: 20px;
+}
+
+.highlight-text {
+  padding: 50px;
+}
+
+.highlight-link {
+  background-color: #14b042;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 15px 20px 15px 20px;
+}
+
+.highlight-link:hover {
+  background-color: #222222;
+  color: #ffffff;
 }
 
 @media (max-width:700px) {
@@ -247,8 +277,7 @@ a {
     grid-template-columns: 1fr;
     font-size: 0.9em;
     line-height: 1.7;
-    max-width: 450px;
-    margin: 50px auto;
+    width: 80vw;
   }
 
   .highlight-item p {
@@ -257,11 +286,40 @@ a {
 }
 
 /* Startseite FAQ-Bilder */
-.faq-item {
-  position: relative;
-  width: 40vw;
-  height: 40vw;
+/*.faq-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+background-color: #eeeeee;
+margin: 50px auto !important;
+position: relative;
+width: 90vw;
+max-width: 1200px;
 }
+
+.faq-item {
+display: block;
+position: relative;
+width: 45vw;
+height: 45vw;
+max-width: 600px;
+max-height: 600px;
+}
+
+.faq-item img {
+display: block;
+position: absolute;
+width: 45vw;
+height: 45vw;
+max-width: 600px;
+max-height: 600px;
+}
+
+@media (max-width:700px) {
+.faq-item {
+width: ;
+height: ;
+}
+}*/
 
 /* Startseite Willkommen */
 .welcome {
@@ -356,6 +414,7 @@ a {
 /* Produkt-Übersicht: Versand */
 .shipping-costs-info a {
   color: #666666;
+
 }
 
 .shipping-costs-info a:hover {
@@ -679,9 +738,9 @@ a {
   display: none;
 }
 
-/* .woocommerce-page ul.products li.product {
-margin-bottom: ; 
- } */
+/*.woocommerce-page ul.products li.product {
+margin-bottom: ; //alle Produkte!
+ }*/
 
 /* Produktseite ähnliche Produkte */
 .related {
@@ -796,6 +855,7 @@ footer .ast-builder-grid-row {
 #ast-desktop-header,
 #ast-mobile-header {
   position: fixed;
+  /*width: 100%;*/
   width: 100vw;
 }
 

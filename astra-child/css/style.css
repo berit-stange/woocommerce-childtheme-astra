@@ -212,15 +212,13 @@ a {
   transition: opacity .5s ease-in-out;
 }
 
-
-
 /* Startseite Highlight-Bilder */
 .highlight-container {
   background-color: #eeeeee;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 80vw;
-  margin: 0 auto;
+  margin: 50px auto !important;
 }
 
 .highlight-item {
@@ -259,7 +257,7 @@ a {
 }
 
 /* Startseite FAQ-Bilder */
-.faq-container {
+.faq-item {
   position: relative;
   width: 40vw;
   height: 40vw;

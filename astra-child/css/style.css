@@ -219,7 +219,8 @@ a {
   background-color: #eeeeee;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 50px !important;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .highlight-item {
@@ -257,6 +258,37 @@ a {
   }
 }
 
+/* Startseite FAQ-Bilder */
+.faq-container {
+  position: relative;
+  width: 40vw;
+  height: 40vw;
+}
+
+.bild-faq-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 40vw;
+  height: 40vw;
+}
+
+.bild-faq-2 {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: opacity .5s ease-in-out;
+  display: block;
+}
+
+.bild-faq-2:hover {
+  opacity: 100;
+  transition: opacity .5s ease-in-out;
+}
+
+/* Startseite Willkommen */
 .welcome {
   text-align: center;
   padding: 40px 0px 20px 0px;

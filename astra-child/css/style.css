@@ -762,7 +762,7 @@ margin-bottom: ; //alle Produkte!
   padding: 10px 10px 20px 10px;
 }
 
-/* Produktseite: Vorschaubilder verkleinern */
+/* Produktseite: Vorschaubilder verkleinern + float etc. */
 @media (min-width:544px) {
   .woocommerce div.product div.woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {
     clear: unset !important;
@@ -770,9 +770,9 @@ margin-bottom: ; //alle Produkte!
 
   .woocommerce div.product div.woocommerce-product-gallery--columns-4 .flex-control-thumbs li {
     width: unset;
+    margin: 0 .5em .5em 0 !important;
   }
 }
-
 
 /* Footer */
 /* nötig, weil in mobiler Ansicht auf manchen Geräten die Breite nicht stimmt */

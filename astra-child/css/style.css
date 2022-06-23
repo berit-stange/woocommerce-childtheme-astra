@@ -272,7 +272,7 @@ a {
   color: #ffffff;
 }
 
-@media (min-width: 700px) and (max-width:1080px) {
+@media (min-width: 710px) and (max-width:1080px) {
   .highlight-text {
     padding: 30px;
   }
@@ -284,7 +284,7 @@ a {
   }
 }
 
-@media (min-width: 700px) and (max-width:850px) {
+@media (min-width: 710px) and (max-width:850px) {
   .highlight-text {
     padding: 20px;
   }
@@ -305,7 +305,9 @@ a {
   }
 }
 
-@media (max-width:700px) {
+
+@media (min-width: 480px) and (max-width:710px) {
+
   .highlight-container {
     grid-template-columns: 1fr;
     font-size: 0.7em;
@@ -313,23 +315,29 @@ a {
     width: 80vw;
   }
 
-  .highlight-item p {
-    letter-spacing: 0.5px;
+  .highlight-item {
+    display: unset;
+    position: unset;
+    width: 80vw;
+    height: 80vw;
   }
 
   .highlight-text {
     padding: 10px;
   }
 
-  .highlight-link {
-    visibility: hidden;
+  .highlight-item h3 {
+    margin-bottom: 0;
   }
 
-  .highlight-item {
-    display: unset;
-    position: unset;
-    width: 80vw;
-    height: 80vw;
+  .highlight-item p {
+    font-size: 1.5em;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+  }
+
+  .highlight-link {
+    padding: 8px 15px 8px 15px;
   }
 
   .highlight-item img {
@@ -340,41 +348,50 @@ a {
   }
 }
 
-/* Startseite FAQ-Bilder */
-/*.faq-container {
-display: grid;
-grid-template-columns: 1fr 1fr;
-background-color: #eeeeee;
-margin: 50px auto !important;
-position: relative;
-width: 90vw;
-max-width: 1200px;
+@media (max-width:480px) {
+
+  .highlight-container {
+    grid-template-columns: 1fr;
+    font-size: .95em;
+    line-height: 1.4;
+    width: 80vw;
+  }
+
+  .highlight-item {
+    display: unset;
+    position: unset;
+    width: 80vw;
+    height: 80vw;
+  }
+
+  .highlight-text {
+    padding: 10px;
+  }
+
+  .highlight-item h3 {
+    margin-bottom: 0;
+  }
+
+  .highlight-item p {
+    font-size: .95em;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+  }
+
+  .highlight-link {
+    padding: 8px 15px 8px 15px;
+    background-color: transparent;
+    color: #14b042;
+  }
+
+  .highlight-item img {
+    display: block;
+    position: unset;
+    width: 80vw;
+    height: 80vw;
+  }
 }
 
-.faq-item {
-display: block;
-position: relative;
-width: 45vw;
-height: 45vw;
-max-width: 600px;
-max-height: 600px;
-}
-
-.faq-item img {
-display: block;
-position: absolute;
-width: 45vw;
-height: 45vw;
-max-width: 600px;
-max-height: 600px;
-}
-
-@media (max-width:700px) {
-.faq-item {
-width: ;
-height: ;
-}
-}*/
 
 /* Startseite Willkommen */
 .welcome {

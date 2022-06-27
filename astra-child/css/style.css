@@ -1151,3 +1151,17 @@ flex-direction: column;
   }
 
 }
+
+/* Instagram Links */
+.ig-links-container {
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 0.5%;
+  text-align: center;
+}
+
+.ig-links-item {
+  display: inline-block;
+  width: 27%;
+  padding: 0.5%;
+}

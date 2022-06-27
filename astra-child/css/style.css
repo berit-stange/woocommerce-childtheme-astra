@@ -741,6 +741,7 @@ a {
 /* Footer */
 .site-primary-footer-wrap {
   padding: 45px;
+  margin-top: 50px !important;
 }
 
 /* ---- ??? ---- */

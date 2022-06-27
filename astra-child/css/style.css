@@ -525,6 +525,17 @@ a {
   font-weight: 600;
 }
 
+/* Button "Kaufen" */
+.woocommerce button.button.alt {
+  background-color: #14b042;
+  border: none;
+  color: #ffffff;
+}
+
+.woocommerce button.button.alt:hover {
+  background-color: #222222;
+}
+
 /* Startseite */
 .page-id-140 .site-content {
   padding-top: 0;

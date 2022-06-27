@@ -1153,17 +1153,19 @@ flex-direction: column;
 }
 
 /* Instagram Links */
+
+/* Instagram Links */
 .ig-links-container {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 880px;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 30px;
+  grid-gap: 20px;
 }
 
-.ig-links-item {
-  display: inline-block;
+#post-3670 p {
+  text-align: center;
 }
 
 .ig-links-item img:hover {

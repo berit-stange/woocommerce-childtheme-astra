@@ -1155,15 +1155,15 @@ flex-direction: column;
 /* Instagram Links */
 .ig-links-container {
   margin: 0 auto;
-  width: 90%;
-  padding-top: 0.5%;
+  max-width: 1080px;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
 }
 
 .ig-links-item {
   display: inline-block;
-  width: 27%;
-  padding: 0.5%;
 }
 
 .ig-links-item img:hover {
@@ -1173,7 +1173,6 @@ flex-direction: column;
 @media (max-width: 700px) {
   .ig-links-container {
     width: 100%;
-    margin: 0;
-    padding: 0;
+    grid-gap: 10px;
   }
 }

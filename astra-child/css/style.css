@@ -477,7 +477,7 @@ a {
 }
 
 #post-7,
-/* Warenkorb  */
+/* Warenkorb */
 #post-8
 
 /* Kasse */
@@ -492,8 +492,6 @@ a {
   background-color: #14b042;
   border: none;
   color: #ffffff;
-  margin-bottom: 10px;
-  width: 100%;
 }
 
 .woocommerce a.button.alt:hover {
@@ -510,6 +508,33 @@ a {
 .woocommerce-shipping-fields__field-wrapper {
   padding: 20px;
   background-color: #f5f5f5 !important;
+}
+
+@media (max-width: 400px) {
+  table {
+    padding: 0 !important;
+  }
+
+  .woocommerce table.shop_table {
+    font-size: 0.9em;
+    padding: 5px !important;
+    width: 100%;
+  }
+
+  .woocommerce-checkout-review-order {
+    padding: 0 .8em !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .woocommerce table.shop_table {
+    font-size: .85em;
+    padding: 5px !important;
+  }
+
+  .woocommerce-checkout-review-order {
+    padding: 0 .5em !important;
+  }
 }
 
 .woocommerce-billing-fields__field-wrapper {
@@ -532,6 +557,8 @@ a {
   background-color: #14b042;
   border: none;
   color: #ffffff;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .woocommerce button.button.alt:hover {

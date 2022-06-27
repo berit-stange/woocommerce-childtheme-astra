@@ -492,6 +492,7 @@ a {
   background-color: #14b042;
   border: none;
   color: #ffffff;
+  width: 100%;
 }
 
 .woocommerce a.button.alt:hover {

@@ -1165,3 +1165,7 @@ flex-direction: column;
   width: 27%;
   padding: 0.5%;
 }
+
+.ig-links-item img:hover {
+  padding: 2px;
+}

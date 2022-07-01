@@ -6,5 +6,6 @@
 ### Anpassungen im Einzelnen: 
 + Runde Teaser-Bilder mit Hover-Effect
 + Blog Übersicht mit runden Teaser-Bildern
++ Slider von Plugin neu positioniert
 
 ![pappmoebelshop-woo-2022](/img/pappmoebelshop-woo-2022.jpg)

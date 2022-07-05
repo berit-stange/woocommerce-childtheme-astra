@@ -1053,6 +1053,7 @@ footer .ast-builder-grid-row {
   grid-gap: 1em;
 }
 
+
 @media (max-width: 921px) {
   ul .sub-menu {
     display: unset !important;
@@ -1120,7 +1121,12 @@ footer .ast-builder-grid-row {
 
 }
 
-/* Instagram Links */
+/* Suche */
+@media (max-width: 440px) {
+  .ast-search-menu-icon.ast-dropdown-active.slide-search .aws-search-field {
+    width: 40vw;
+  }
+}
 
 /* Instagram Links */
 .ig-links-container {
@@ -1145,4 +1151,10 @@ footer .ast-builder-grid-row {
     width: 100%;
     grid-gap: 10px;
   }
+}
+
+/* Mein Konto */
+.konto-info {
+  max-width: 50%;
+  margin: 0 auto;
 }

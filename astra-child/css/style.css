@@ -1,18 +1,3 @@
-/*
- Theme Name:   Astra Child
- Theme URI:    http://example.com/twenty-fifteen-child/
- Description:  Astra Child Theme
- Author:       John Doe
- Author URI:   http://example.com
- Template:     astra
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  astrachild
-*/
-
-
 @charset "UTF-8";
 
 * {
@@ -697,6 +682,20 @@ a {
   .post-277 h2 {
     font-size: 1.3rem;
   }
+}
+
+/* Über Uns */
+#post-279 .entry-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-grid-item {
+  padding: 20px;
+}
+
+.about-grid-item a {
+  color: #14b042;
 }
 
 .post-131 h3,
